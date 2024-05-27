@@ -34,13 +34,13 @@ export const Register = () => {
               <div className="registration-image">
                 <img
                   src="/images/illustraction.png"
-                  alt="Rgistration form image"
+                  alt="Registration form image"
                   width="500"
                   height="500"
                 />
               </div>
               <div className="registration-form">
-                <h1 className="main-heading mb-3">registration form</h1>
+                <h1 className="main-heading mb-3">registration Form</h1>
                 <br />
                 <form onSubmit={handleSubmit}>
                   <div>
