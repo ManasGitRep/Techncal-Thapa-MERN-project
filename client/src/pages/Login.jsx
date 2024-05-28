@@ -5,6 +5,7 @@ export const Login = () => {
     email: "",
     passwaord: "",
   });
+  //same as registration
   // handling the input values
   const handleInput = (e) => {
     console.log(e);
