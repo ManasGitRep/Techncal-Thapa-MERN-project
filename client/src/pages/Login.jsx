@@ -3,7 +3,7 @@ import { useState } from "react";
 export const Login = () => {
   const [user, setUser] = useState({
     email: "",
-    passwaord: "",
+    password: "",
   });
   //same as registration
   // handling the input values
