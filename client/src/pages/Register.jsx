@@ -19,7 +19,7 @@ export const Register = () => {
     });
   };
 
-  // handling the form submition 
+  // handling the form submition
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(user);
@@ -35,7 +35,7 @@ export const Register = () => {
                 <img
                   src="/images/illustraction.png"
                   alt="Registration form image"
-                  width="500"
+                  width="550"
                   height="500"
                 />
               </div>
