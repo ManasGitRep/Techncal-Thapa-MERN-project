@@ -19,7 +19,7 @@ export const Register = () => {
     });
   };
 
-  // handling the form submition
+  // handling the form submition 
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(user);
