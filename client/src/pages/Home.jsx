@@ -17,7 +17,7 @@ export const Home = () => {
                   <button className="btn">connect now</button>
                 </a>
                 <a href="/service">
-                  <button className="btn">learn more</button>
+                  <button className="btn secondary-btn">learn more</button>
                 </a>
               </div>
             </div>
@@ -33,6 +33,26 @@ export const Home = () => {
           </div>
         </section>
       </main>
+      <section className="section-analytics">
+        <div className="container grid grid-four-cols">
+          <div className="div1">
+            <h2>50+</h2>
+            <p>registration companies</p>
+          </div>
+          <div className="div1">
+            <h2>100,00+</h2>
+            <p>Happy Clients</p>
+          </div>
+          <div className="div1">
+            <h2>500+</h2>
+            <p>well known developers</p>
+          </div>
+          <div className="div1">
+            <h2>24/7</h2>
+            <p>service</p>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
