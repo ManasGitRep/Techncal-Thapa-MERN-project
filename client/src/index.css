@@ -1,15 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
   color-scheme: light dark;
 }
 
 :root {
   --bg-color: #f4f3ff;
-  --btn-color: #646cff;
+  --btn-color: #3586ff;
   --dark-color: #242424;
   --helper-color: #99b9ff;
 }
@@ -102,6 +102,7 @@ a.active {
 
 /***** hero section *****/
 .section-hero {
+  margin-bottom: 14rem;
   & .grid {
     align-items: center;
   }
