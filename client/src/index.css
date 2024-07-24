@@ -154,3 +154,43 @@ a.active {
 }
 
 /***** end analytics section *****/
+
+/** contact secton css **/
+
+.section-contact {
+  & .contact-content {
+    padding: 0;
+    & h1 {
+      margin-bottom: 3.2rem;
+    }
+  }
+  & .container {
+    padding-top: 3.2rem;
+  }
+  & .contact-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    & img {
+      width: 80%;
+      height: auto;
+    }
+  }
+}
+
+& .section-form {
+  & form {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  & label {
+    display: block;
+    margin-bottom: 1.2rem;
+  }
+  & input,
+  textarea {
+    width: 80%;
+    padding: 0.2rem 0.6rem;
+  }
+}

@@ -40,7 +40,7 @@ export const Register = () => {
                 />
               </div>
               <div className="registration-form">
-                <h1 className="main-heading mb-3">registration Form</h1>
+                <h1 className="main-heading mb-3">Registration Form</h1>
                 <br />
                 <form onSubmit={handleSubmit}>
                   <div>
